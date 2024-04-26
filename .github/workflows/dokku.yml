@@ -17,6 +17,6 @@ jobs:
       - name: Push to dokku
         uses: dokku/github-action@master
         with:
-          git_remote_url: 'ssh://dokku@212.113.123.59:22/pgs'
+          git_remote_url: 'ssh://dokku@212.113.123.59:22/pgs02'
           ssh_private_key: ${{ secrets.TIMEWEB_ID_RSA }}
           git_push_flags: '--force'
